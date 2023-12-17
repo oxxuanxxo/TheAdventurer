@@ -1,0 +1,10 @@
+The Adventurer (Hack 'N Slash, Platformer, Action)
+
+The Adventurer is a 2D Hack 'N Slash Platformer game that invokes nostalgic feelings of old-school arcade games.
+You play as an adventurer, whos best friend was recently kidnapped. With nothing but your spear, sword and shield, you must overcome waves of monsters,
+and fierce bosses to bring back your friend. But be careful, things may not turn out how you envision...
+
+Chua Yip Xuan – Producer, Artist 
+Cruz Rolly Matthew Capiral – Technical Director, Music, Animation
+Mohammad Hanif Koh Teck Wee – Lead Designer, Physics
+Siti Nursafinah Bte Sumsuri – Testing Manager

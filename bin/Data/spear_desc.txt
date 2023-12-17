@@ -1,0 +1,3 @@
+Throwing the spear will pierce through enemies
+Spear attacks will cause bleeding
+Holding C key longer than 4 seconds will trigger a new attack

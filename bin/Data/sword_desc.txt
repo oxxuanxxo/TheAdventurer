@@ -1,0 +1,3 @@
+Parry counter attack deals more damage
+XZZZ chain deals more damage
+ZZZ[Z] has a bigger hitbox and deals more damage

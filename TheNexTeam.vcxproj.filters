@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DigiPen">
+      <UniqueIdentifier>{2fb108e9-3cb4-44f0-b447-fdd61fc9f54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{96ac50c1-0ea4-4d23-b3cf-4048962680aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{d6ff221b-7978-487b-a7b0-69508a462d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{826a7530-16f0-4853-bc4c-102944f039ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{684bd8bb-d18c-4c86-bff8-f7674e39e707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Headers">
+      <UniqueIdentifier>{e1926ef0-9bad-45e1-bd68-5d7490bc6828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DigiPen\Headers">
+      <UniqueIdentifier>{859ba27b-fb97-4234-a2ca-505bd1f1d60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Headers">
+      <UniqueIdentifier>{e4f8f46d-3d9f-4860-abb5-cbfd292e7233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Headers">
+      <UniqueIdentifier>{db6b4be4-2337-4678-b589-8601e4b95a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{5d3a143d-0262-41bc-b1e7-2d3141bf799a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Headers">
+      <UniqueIdentifier>{e5f28082-31cf-42f9-b7ea-e0fce8a8d325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Attacks">
+      <UniqueIdentifier>{cc2c0a36-d387-4c05-bbbd-79b7d551b503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Boss">
+      <UniqueIdentifier>{f710a357-19b3-46ce-ac3b-8625f34838e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Status Effects">
+      <UniqueIdentifier>{82288cd8-276b-4408-83eb-f89823fd1437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy">
+      <UniqueIdentifier>{3847f43f-96a9-4e77-a388-3a68382fbf1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="src\game_state_manager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tutorial.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\animation.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainmenu.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pause.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\globals.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level1.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attack.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\swordattacks.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spearattacks.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss1attacks.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemyattacks.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss1.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level_manager.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collectables.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binarymap.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shield.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particlesystem.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameover.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player_data.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\traps.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level_select.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss2.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss2attacks.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level3.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collision.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss3attacks.cpp">
+      <Filter>System\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss3.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level2.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\upgrade.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\credits.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particle_effects.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\status_effect.cpp">
+      <Filter>System\Status Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\panel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transition.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\digipen.cpp">
+      <Filter>DigiPen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\button.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\range_enemy.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\melee_enemy.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\game_states.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_state_manager.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tutorial.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timer.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\collision.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\animation.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enemy.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameobject.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\attack.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\globals.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mainmenu.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pause.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boss.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\level1.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\level_manager.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\collectables.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binarymap.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shield.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\game_enums.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\particlesystem.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameover.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player_data.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\traps.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\level_select.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\level3.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\audio.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\button.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upgrade.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\status_effect.h">
+      <Filter>System\Status Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\panel.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transition.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\options.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\digipen.h">
+      <Filter>DigiPen\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\credits.h">
+      <Filter>System\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\level2.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

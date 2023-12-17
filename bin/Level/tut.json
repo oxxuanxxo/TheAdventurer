@@ -1,0 +1,291 @@
+{
+	"Areas" : 5,
+	"StageBGM" : "./Audio/BGM/level1.wav",
+	"BossBGM" : "./Audio/BGM/level1_boss.wav",
+	"BossWarn" : "./Audio/BGM/boss_1_growl.wav",
+	"Level": 1,
+	"CameraBoundary" :
+	{
+		"MinX" : 20,
+		"MaxX" : 3200,
+		"MinY" : 20,
+		"MaxY" : 1000
+	},
+	"TriMesh" : [
+		{
+			"Name" : "HalfRectMesh1", "x0" : -0.5, "x1" : 0.5, "x2" : -0.5, 
+			"y0" : -0.5, "y1" : -0.5, "y2" : 0.5,
+			"c0" : 1970632053, "c1" : 1970632053, "c2" : 1970632053,
+			"tu0" : 0, "tu1" : 1, "tu2" : 0,
+			"tv0" : 1, "tv1" : 1, "tv2" : 0
+		},
+		{
+			"Name" : "HalfRectMesh2", "x0" : 0.5, "x1" : 0.5, "x2" : -0.5, 
+			"y0" : -0.5, "y1" : 0.5, "y2" : 0.5,
+			"c0" : 1970632053, "c1" : 1970632053, "c2" : 1970632053,
+			"tu0" : 1, "tu1" : 1, "tu2" : 0,
+			"tv0" : 1, "tv1" : 0, "tv2" : 0
+		}
+	],
+	"RectMesh": [
+		{
+			"Name" : "Square",
+			"HalfTriMesh1" : "HalfRectMesh1",
+			"HalfTriMesh2" : "HalfRectMesh2"
+		}
+	],
+	"Texture" : [
+		{
+			"Name" : "Tutorial_Platform",
+			"Filepath" : "./Background/tutorial_platform.png"
+		},
+		{
+			"Name" : "Skeleton_Melee",
+			"Filepath" : "./Sprites/skeleton_melee.png"
+		},
+		{
+			"Name" : "Slime",
+			"Filepath" : "./Sprites/slime.png"
+		},
+		{
+			"Name" : "SkeleMage",
+			"Filepath" : "./Sprites/range_enemy.png"
+		}
+	],
+	"Sprite" : [
+		{
+			"Name" : "TestPlatform",
+			"Texture" : "Tutorial_Platform",
+			"Mesh" : "Square"
+		},
+		{
+			"Name" : "Platform",
+			"Mesh" : "Square"
+		},
+		{
+			"Name" : "Slime",
+			"Texture" : "Slime",
+			"TranslateX" : 205,
+			"TranslateY" : 205,
+			"Color" : 0
+		},
+		{
+			"Name" : "SkeleMage",
+			"Texture" : "SkeleMage",
+			"TranslateX" : 125,
+			"TranslateY" : 100,
+			"Color" : 0
+		},
+		{
+			"Name" : "Skeleton_Melee",
+			"Texture" : "Skeleton_Melee",
+			"TranslateX" : 205,
+			"TranslateY" : 205,
+			"Color" : 0
+		},
+		{
+			"Name" : "Wall",
+			"TranslateX" : 1,
+			"TranslateY" : 1,
+			"Color" : 1970632053
+		
+		}
+	],
+	"Player" : 
+		{
+			"X" : 0,
+			"Y" : 100
+		},
+	"Platform": [],
+	"Walls" : [
+		{
+			"X" : 0,
+			"Y" : 500,
+			"ScaleX" : 100,
+			"ScaleY" : 1000
+		},
+		{
+			"X" : 6300,
+			"Y" : 250,
+			"ScaleX" : 100,
+			"ScaleY" : 1000
+		},
+		{
+			"X" : 1200,
+			"Y" : 100,
+			"ScaleX" : 150,
+			"ScaleY" : 200,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 1820,
+			"Y" : 200,
+			"ScaleX" : 150,
+			"ScaleY" : 300,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 4800,
+			"Y" : 100,
+			"ScaleX" : 100,
+			"ScaleY" : 200,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 4900,
+			"Y" : 190,
+			"ScaleX" : 100,
+			"ScaleY" : 350,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 5000,
+			"Y" : 100,
+			"ScaleX" : 100,
+			"ScaleY" : 200,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 3840,
+			"Y" : 425,
+			"ScaleX" : 20,
+			"ScaleY" : 20,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 3900,
+			"Y" : 390,
+			"ScaleX" : 100,
+			"ScaleY" : 50,
+			"Sprite" : "Wall"
+		},
+		{
+			"X" : 3960,
+			"Y" : 425,
+			"ScaleX" : 20,
+			"ScaleY" : 20,
+			"Sprite" : "Wall"
+		},
+		{
+			"Area" : 0,
+			"X" : 3200,
+			"Y" : 1500,
+			"ScaleX" : 100,
+			"ScaleY" : 3000,
+			"Sprite" : "Wall"
+		},
+		{
+			"Area" : 1,
+			"X" : 3200,
+			"Y" : 1250,
+			"ScaleX" : 100,
+			"ScaleY" : 3000,
+			"Sprite" : "Wall"
+		},
+		{
+			"Area" :1,
+			"X" : 2550,
+			"Y" : 400,
+			"ScaleX" : 100,
+			"ScaleY" : 50,
+			"Sprite" : "Wall"
+		},
+		{
+			"Area" : 2,
+			"X" : 3800,
+			"Y" : 1250,
+			"ScaleX" : 100,
+			"ScaleY" : 3000,
+			"Sprite" : "Wall"
+		},
+		{
+			"Area" : 3,
+			"X" : 5000,
+			"Y" : 1250,
+			"ScaleX" : 100,
+			"ScaleY" : 3000,
+			"Sprite" : "Wall"
+		},
+		{
+			"Area" : 4,
+			"X" : 5000,
+			"Y" : 1250,
+			"ScaleX" : 100,
+			"ScaleY" : 3000,
+			"Sprite" : "Wall"
+		}
+	],
+	"Enemy" : [
+		{
+			"Area" : 0,
+			"Sprite" : "Slime",
+			"Type":  "Normal",
+			"PosX" : 3000,
+			"PosY" : 100,
+			"Health" : 50,
+			"ScaleX" : 75,
+			"ScaleY" : 75
+		},
+		{
+			"Area" : 1,
+			"Sprite" : "SkeleMage",
+			"Type" : "Ranged",
+			"Range" : 5,
+			"PosX" : 2550,
+			"PosY" : 500,
+			"Health" : 50,
+			"ScaleX" : 125,
+			"ScaleY" : 125
+		},
+		{
+			"Area" : 2,
+			"Sprite" : "Slime",
+			"Type" : "Normal",
+			"Range" : 5,
+			"PosX" : 3600,
+			"PosY" : 500,
+			"Health" : 50,
+			"ScaleX" : 75,
+			"ScaleY" : 75
+		},
+		{
+			"Area" : 3,
+			"Sprite" : "Slime",
+			"Type" : "Normal",
+			"Range" : 5,
+			"PosX" : 3900,
+			"PosY" : 450,
+			"Health" : 30,
+			"ScaleX" : 75,
+			"ScaleY" : 75
+		}
+	],
+	"Traps" :[],
+	"BossRoomWall" :
+	{
+			"X" : 4940,
+			"Y" : 1250,
+			"ScaleX" : 100,
+			"ScaleY" : 3000,
+			"Sprite" : "TestPlatform"
+	},
+	"BossRoomCamBound" :
+	{
+		"MinX" : 5000,
+		"MaxX" : 6280,
+		"MinY" : 0,
+		"MaxY" : 1000
+	},
+	"BossTrigger" : 
+	{
+		"X" : 6400,
+		"Y" : 250,
+		"ScaleX" : 100,
+		"ScaleY" : 1000
+	},
+	"BossInit" :
+	{
+		"X" : 6000,
+		"Y" : 800
+	}
+}
